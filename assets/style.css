@@ -13,11 +13,20 @@
     src: url('./Mazzard/MazzardH-ExtraLight.otf');
 }
 
-body {
-    height: 100%;
-    background-image: url('./images/Escalator.png');
+html {
+    /* background: url('./images/Escalator.png') no-repeat center center fixed;
     background-size: cover;
+    height: 100%;
+    overflow: hidden; */
 }
+
+body {
+    background: url('./images/Escalator.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
 
 #logo {
     box-sizing: border-box;
@@ -32,7 +41,7 @@ body {
 
 .button {
     border: 1px solid white;
-    padding: 15px 30px 15px 30px;
+    /* padding: 15px 30px 15px 30px; */
     overflow: hidden;
     -webkit-border-radius: 20px; 
     -moz-border-radius: 20px; 
@@ -60,4 +69,43 @@ body {
 
 .sm-icons-fb {
     width: 10px;
+}
+
+
+/* Small devices (phones, 480px and down) */
+@media screen and (max-width: 480px) {
+    #logo {
+        width: 100px;
+    }
+
+    #coming-soon {
+        font-size: 50px;
+        display: block;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+
+    .contact span {
+        font-size: 14px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) and (min-width: 480px) { 
+    #coming-soon {
+        font-size: 100px;
+        display: block;
+    }
+ }
+
+ /* Large devices (desktops, 992px and down) */
+@media (min-width: 992px) { 
+}
+
+/* Extra large devices (large desktops, 1200px and down)  */
+@media (min-width: 1200px) { 
+
 }
