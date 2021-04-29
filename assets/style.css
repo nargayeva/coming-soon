@@ -1,0 +1,63 @@
+@font-face {
+    font-family: mazzardBold;
+    src: url('./Mazzard/MazzardH-Bold.otf');
+}
+
+@font-face {
+    font-family: mazzardExtraBold;
+    src: url('./Mazzard/MazzardH-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: mazzardExtraLight;
+    src: url('./Mazzard/MazzardH-ExtraLight.otf');
+}
+
+body {
+    height: 100%;
+    background-image: url('./images/Escalator.png');
+    background-size: cover;
+}
+
+#logo {
+    box-sizing: border-box;
+    width: 185px;
+}
+
+#coming-soon {
+    color: white;
+    font-family: mazzardExtraBold;
+    font-size: 120px;
+}
+
+.button {
+    border: 1px solid white;
+    padding: 15px 30px 15px 30px;
+    overflow: hidden;
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    border-radius: 30px; 
+    color: white;
+    font-family: mazzardExtraLight;
+    font-size: 16px;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #333333;
+}
+
+.contact span {
+    color: white;
+    font-size: 16px;
+    font-family: mazzardExtraLight;
+}
+
+.sm-icons {
+    width: 20px;
+}
+
+.sm-icons-fb {
+    width: 10px;
+}
