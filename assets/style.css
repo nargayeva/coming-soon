@@ -21,9 +21,9 @@ html {
 }
 
 body {
-    background: url('./images/Escalator.png') no-repeat center center fixed;
+    background: url('./images/Escalator.png') no-repeat center center;
     background-size: cover;
-    /* height: 100%; */
+    height: 100vh;
     overflow: hidden;
 }
 
