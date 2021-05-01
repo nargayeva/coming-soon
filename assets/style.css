@@ -13,20 +13,14 @@
     src: url('./Mazzard/MazzardH-ExtraLight.otf');
 }
 
-html {
-    /* background: url('./images/Escalator.png') no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden; */
-}
 
 body {
-    background: url('./images/Escalator.png') no-repeat center center;
+    background: url('./images/Escalator.png');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    overflow: hidden;
+    width: 100vw;
 }
-
 
 #logo {
     box-sizing: border-box;
