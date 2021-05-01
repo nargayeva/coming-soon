@@ -25,6 +25,7 @@ body {
 #logo {
     box-sizing: border-box;
     width: 185px;
+    height: 100% !important;
 }
 
 #coming-soon {
