@@ -15,14 +15,30 @@
 
 
 body {
-    background: url('./images/Escalator.png');
+    /* background: url('./images/Escalator.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
 }
 
+.main {
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
 #logo {
+    z-index: 1;
     box-sizing: border-box;
     width: 185px;
     height: 100% !important;
@@ -55,7 +71,7 @@ body {
 .contact span {
     color: white;
     font-size: 16px;
-    font-family: mazzardExtraLight;
+    font-family: mazzardBold;
 }
 
 .sm-icons {
@@ -86,14 +102,30 @@ body {
         font-size: 14px;
     }
 
+    .sm-icons {
+        width: 15px;
+    }
+    
+    .sm-icons-fb {
+        width: 8px;
+    }
+
+
 }
 
 /* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) and (min-width: 480px) { 
     #coming-soon {
-        font-size: 100px;
+        font-size: 80px;
         display: block;
     }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
  }
 
  /* Large devices (desktops, 992px and down) */
