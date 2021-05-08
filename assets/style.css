@@ -75,20 +75,17 @@ body {
     font-family: mazzardExtraLight;
 }
 
-.sm-icons {
-    width: 20px;
-}
-
-.sm-icons-fb {
-    width: 10px;
-}
-
 .bs-example{
     /*margin: 20px;*/
 }
 .modal-dialog iframe{
     margin: 0 auto;
     display: block;
+}
+
+.fab {
+    font-size: 1.3rem;
+    color: white;
 }
 
 
