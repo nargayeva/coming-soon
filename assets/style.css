@@ -108,12 +108,8 @@ body {
         font-size: 14px;
     }
 
-    .sm-icons {
-        width: 15px;
-    }
-    
-    .sm-icons-fb {
-        width: 8px;
+    .fab {
+        font-size: 1rem;
     }
 
 }
