@@ -19,7 +19,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .main {
@@ -89,10 +89,6 @@ body {
 .modal-dialog iframe{
     margin: 0 auto;
     display: block;
-}
-
-.modal-dialog .modal-show {
-    max-width: 1000px;
 }
 
 
