@@ -19,7 +19,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .main {
@@ -35,6 +35,7 @@ body {
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
+    filter:brightness(60%);
   }
 
 #logo {
@@ -71,15 +72,20 @@ body {
 .contact span {
     color: white;
     font-size: 16px;
-    font-family: mazzardBold;
+    font-family: mazzardExtraLight;
 }
 
-.sm-icons {
-    width: 20px;
+.bs-example{
+    /*margin: 20px;*/
+}
+.modal-dialog iframe{
+    margin: 0 auto;
+    display: block;
 }
 
-.sm-icons-fb {
-    width: 10px;
+.fab {
+    font-size: 1.3rem;
+    color: white;
 }
 
 
@@ -102,14 +108,9 @@ body {
         font-size: 14px;
     }
 
-    .sm-icons {
-        width: 15px;
+    .fab {
+        font-size: 1rem;
     }
-    
-    .sm-icons-fb {
-        width: 8px;
-    }
-
 
 }
 
